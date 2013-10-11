@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------------------------------------
-# Comandos básicos no R
+# Espaço de trabalho
 #
 # Gorgens, Eric Bastos
 # Department of Forest Sciences
