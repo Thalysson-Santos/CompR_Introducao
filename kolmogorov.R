@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------------------------------------
-# Comparando distribuicoes
+# Comparando distribuicoes com o Kolmogorov-Smirnof
 #
 # Gorgens, Eric Bastos
 # Department of Forest Sciences
