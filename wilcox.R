@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------------------------------------
-# Comparando distribuicoes
+# Comparando distribuicoes com Wilcox
 #
 # Gorgens, Eric Bastos
 # Department of Forest Sciences
