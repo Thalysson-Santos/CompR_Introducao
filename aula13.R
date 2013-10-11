@@ -29,7 +29,14 @@ plot(area,riqueza) # escrita alternativa
 plot(riqueza~area, xlab="Area (m²)", ylab="Riqueza", xlim=c(0,90), ylim=c(0,90), main="Riqueza = f(area)")
 
 
+
+
 # Teste também os gráficos abaixo
+# Linha de tendência
+plot(riqueza~area, xlab="Area (m²)", ylab="Riqueza", xlim=c(0,90), ylim=c(0,90), main="Riqueza = f(area)")
+abline(lm(riqueza~area))
+
+
 # Boxplot
 boxplot(riqueza~area.cate)
 ?boxplot
