@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------------------------------------
-# Comandos básicos no R
+# Adicionando pacotes
 #
 # Gorgens, Eric Bastos
 # Department of Forest Sciences
