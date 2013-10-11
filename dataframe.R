@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------------------------------------
-# Pacote grafico padrao R
+# Data frame
 #
 # Gorgens, Eric Bastos
 # Department of Forest Sciences
