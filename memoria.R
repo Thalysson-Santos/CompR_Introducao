@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------------------------------------
-# Comandos básicos no R
+# Memória e histórico
 #
 # Gorgens, Eric Bastos
 # Department of Forest Sciences
