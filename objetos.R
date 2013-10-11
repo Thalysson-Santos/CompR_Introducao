@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------------------------------------
-# Comandos básicos no R
+# Tipos de objetos
 #
 # Gorgens, Eric Bastos
 # Department of Forest Sciences
