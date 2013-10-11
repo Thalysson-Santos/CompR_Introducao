@@ -20,3 +20,7 @@ max(mtcars$mpg) # maximo
 min(mtcars$mpg) # minimo
 median(mtcars$mpg) #mediana
 IQR(mtcars$mpg) #distancia intequartil
+
+
+# Veja agora a função summary
+summary(mtcars)
