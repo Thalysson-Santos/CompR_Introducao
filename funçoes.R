@@ -13,10 +13,6 @@
 # pegando entrada(s) e transformando num saída(s), a partir de parâmetros que influenciam seu comportamento.
 # Uma função pode ser chamada dentro de outra função
 
-
-#--------------------------------------------------------------------------------------------------
-# Parte do Exercício 02
-
 # Ajusta o modelo de Richards para a progenie i
 chute_d = max(temp$diametro)
 func = nls(diametro~a*(1-exp(-b*idade))^c,data=temp, start=list(a=chute_d, b=0.05, c=1.0))
