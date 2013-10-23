@@ -18,16 +18,12 @@ head(nonlinear)
 # Criando um gráfico com todos os dados
 plot(nonlinear$idade, nonlinear$diametro, main = "Geral", xlab = "Idade (anos)", ylab = "Diâmetro (cm)")
 
-
+# Define chute inicial para o modelo não linear de Richards
 chute_d = max(nonlinear$diametro)
+
+# Ajusta modelo não linear de Richards.
 func = nls(diametro~a*(1-exp(-b*idade))^c,data=nonlinear, start=list(a=chute_d, b=0.05, c=1.0))
+
+# Análise de variância da regressão não linear.
 summary(func)
 
-plot(temp$idade, temp$diametro, xlab = "Idade (anos)", ylab = "Diâmetro (cm)")
-# Cria uma funcao para implementar o modelo de Richards no comando curve()
-func2 <- function(x) {
-  a<-cfunc[1] ; b<-cfunc[2] ; c<-cfunc[3]
-  (a*(1-exp(-b*x))^c)
-}
-# Adiciona o respectivo modelo de Richard ao grafico de dispersao
-curve(func2, from=1, to=8,add=TRUE)
