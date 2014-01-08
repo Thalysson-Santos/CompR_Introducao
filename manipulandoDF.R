@@ -1,0 +1,40 @@
+#--------------------------------------------------------------------------------------------------
+# Correlação e covariância
+#
+# Gorgens, Eric Bastos
+# Department of Forest Sciences
+# University of Sao Paulo
+# Piracicaba, Brazil
+# gorgens (at) usp.br
+#
+#--------------------------------------------------------------------------------------------------
+
+dados <- read.csv("mudas.csv")
+
+dados
+
+# filtrar a coluna
+dados[,1]
+dados[,2]
+dados$Altura
+
+# filtrar a linha
+dados[1,]
+dados[-1,]
+
+# filtrar os dados relativos a espécie A
+dados[dados$Especie == "A",]
+
+# filtrar os dados cuja altura seja igual a 14
+dados[dados$Altura == 14,]
+
+# filtrar os dados da espécie B cuja altura seja igual a 14
+dados[dados$Altura == 14 & dados$Especie == "B",]
+
+# filtrar os dados cuja altura seja igual a 14 ou 13
+dados[dados$Altura == 14 | dados$Altura == 13,]
+
+# adicionar uma linha
+dados[dim(dados)[1]+1,] <- c("D", 10)
+
+# em alguns casos é possível usar o rbind e o cbind.
