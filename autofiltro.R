@@ -34,7 +34,4 @@ dados[dados$Altura == 14 & dados$Especie == "B",]
 # filtrar os dados cuja altura seja igual a 14 ou 13
 dados[dados$Altura == 14 | dados$Altura == 13,]
 
-# adicionar uma linha
-dados[dim(dados)[1]+1,] <- c("D", 10)
-
-# em alguns casos é possível usar o rbind e o cbind.
+# é possível trabalhar com todos os operadores lógicos como >, <, <=, >=, != e outros.
