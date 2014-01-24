@@ -19,7 +19,6 @@ b = a + a
 
 ls() # retorna lista de objetos carregados na memória
 rm(a) # deleta objeto a da memória
-rm(list=ls(all=TRUE)) # limpa toda a memória
 
 #--------------------------------------------------------
 # Administrando histórico
