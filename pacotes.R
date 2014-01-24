@@ -9,11 +9,11 @@
 #
 #--------------------------------------------------------------------------------------------------
 
-# Aula 8
 #--------------------------------------------------------
-# Manipulando pacotes de trabalho
-install.packages("ggplot2") # instalando um pacote de funções. Precisa da internet
-?ggplot2 # abre janela de help
-??ggplot2
-require(ggplot2) # verifica se pacote está disponível. Em caso de positivo ativa,
-# em caso de negativo retorna erro.
+# Verifica se pacote está disponível. Em caso de positivo ativa.
+require(ggplot2) 
+
+# Instala pacotes de trabalho
+install.packages("ggplot2") # Precisa de acesso a internet
+
+
