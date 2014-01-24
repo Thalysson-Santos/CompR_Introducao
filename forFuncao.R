@@ -7,7 +7,6 @@
 # Piracicaba, Brazil
 # gorgens (at) usp.br
 #
-# Last revision: 2013-06-22
 #--------------------------------------------------------------------------------------------------
 
 # Vamos combinar o looping FOR com a criação de uma função para ser chamada dentro de outra função.
