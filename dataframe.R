@@ -12,8 +12,6 @@
 # Exemplo 1 - Criando um data frame a partir da função data.frame()
 # Dados do exemplo 1 foram adaptador de http://ecologia.ib.usp.br/bie5782/doku.php?id=bie5782:03_apostila:05a-graficos
 
-
-
 d = data.frame(riqueza = c(22, 24, 25, 30, 37, 39, 41, 45),
                area = c(10, 30, 34, 50, 56, 80, 85, 90),
                categoria = rep(c("pequeno", "grande"), each = 4))
