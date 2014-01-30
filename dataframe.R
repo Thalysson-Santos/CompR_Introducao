@@ -9,29 +9,27 @@
 #
 #--------------------------------------------------------------------------------------------------
 
-# Exemplo 1 (fonte: http://ecologia.ib.usp.br/bie5782/doku.php?id=bie5782:03_apostila:05a-graficos)
+# Exemplo 1 - Criando um data frame a partir da função data.frame()
+# Dados do exemplo 1 foram adaptador de http://ecologia.ib.usp.br/bie5782/doku.php?id=bie5782:03_apostila:05a-graficos
 
-# Os dados dentro do R podem ser armazenados em vetores, matrizes, data frames e listas
-# Nem todas as estruturas de armazenamento sao compati?veis com todas as funcoes
 
-# Vamos criar 3 vetores
-riqueza <- c(15,18,22,24,25,30,31,34,37,39,41,45)
-area <- c(2,4.5,6,10,30,34,50,56,60,77.5,80,85)
-area.cate <- rep(c("pequeno", "grande"), each=6)
 
-# Criando data frame a partir de coluna
-d = data.frame(riqueza, area, area.cate)
+d = data.frame(riqueza = c(22, 24, 25, 30, 37, 39, 41, 45),
+               area = c(10, 30, 34, 50, 56, 80, 85, 90),
+               categoria = rep(c("pequeno", "grande"), each = 4))
 
-# filtrando dados dentro de um data.frame
-d$riqueza # retorna coluna de um data.frame
-d[,c(2,3)] # retorna colunas 2 e 3 do data.frame
-d[d$area.cate=="grande",] # retorna linhas que tenham categoria igual a "grande"
 
-#--------------------------------------------------------
-# Exemplo 2 (fonte: http://www.statmethods.net/graphs/creating.html)
+# Exemplo 2 - Criação de um data frame a partir da importação de uma planilha eletrônica (.csv)
 
-# O R possui um conjunto de dados para demosntracao
-# Este e um exemplo com matriz
-data(mtcars)
-head(mtcars)
-names(mtcars)
+df = read.csv("flowering_alien_vs_indigen.csv", sep = ";")
+
+is.data.frame(df)
+
+# Funções úteis para trabalhar com data frame:
+
+names(df)
+dim(df)
+head(df)
+tail(df)
+nrow(df)
+ncol(df)
