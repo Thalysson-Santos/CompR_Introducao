@@ -15,15 +15,11 @@ df <- read.csv("flowering_alien_vs_indigen.csv", sep = ";") # o separador pode m
 head(df)
 names(df)
 
-library(lattice) # este e outro pacote grafico disponivel para o R
+# explorando a distribuição graficamente.
+require(ggplot2)
+ggplot(df, aes(Flowering)) + geom_histogram() + facet_wrap(~Status, nrow = 2, ncol = 1)
  
-histogram(~ Flowering|Status, data = df, col = "gray60", layout = c(1, 2),
-          xlab = list("Mes de florecimento"),
-          ylab = list("Percentual do total"),
-          scales = list(y = list(alternating = F)),
-          strip = strip.custom(factor.levels = c("alien", "indigenous")))
- 
-# E pelo teste Chi-quadrado.
+# e pelo teste Chi-quadrado.
 m <- table(df$Status, df$Flowering)
  
 (Xsq <- chisq.test(m)) # Resumo do teste
