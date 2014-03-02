@@ -19,10 +19,10 @@ head(nonlinear)
 plot(nonlinear$idade, nonlinear$diametro, main = "Geral", xlab = "Idade (anos)", ylab = "Diâmetro (cm)")
 
 # Define chute inicial para o modelo não linear de Richards
-chute_d = max(nonlinear$diametro)
+chute_a = max(nonlinear$diametro)
 
 # Ajusta modelo não linear de Richards.
-func = nls(diametro~a*(1-exp(-b*idade))^c,data=nonlinear, start=list(a=chute_d, b=0.05, c=1.0))
+func = nls(diametro~a*(1-exp(-b*idade))^c,data=nonlinear, start=list(a=chute_a, b=0.05, c=1.0))
 
 # Análise de variância da regressão não linear.
 summary(func)
