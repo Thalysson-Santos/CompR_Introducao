@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------------------------------------
-# Tipos de objetos
+# Operadores matemáticos
 #
 # Gorgens, Eric Bastos
 # Department of Forest Sciences
@@ -9,8 +9,6 @@
 #
 #--------------------------------------------------------------------------------------------------
 
-# Aula 6
-#--------------------------------------------------------
 # Atribuindo valores 
 a = 2
 a <- 2 # atribui valor 2 à variável a - mesma ação da linha anterior
