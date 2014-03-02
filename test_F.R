@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------------------------------------
-# Correlação e covariância
+# Exemplo do teste F
 #
 # Gorgens, Eric Bastos
 # Department of Forest Sciences
