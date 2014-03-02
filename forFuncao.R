@@ -20,7 +20,6 @@ summary(nonlinear)
 lista = c(4,5,6,8,10,11,15,24,25,27,34,35,38,41,43,46,47,48,49,52,59,63,66,73,76,81)
 
 # Ajustando o modelo de Richard por progênie e adiciona a curva ao gráfico de dispersão.
-# Salva cada progênie num gráfico externo.
 
 for (i in lista) {
   # cria um subset com os dados da progenie i
