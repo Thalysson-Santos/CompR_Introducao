@@ -19,7 +19,7 @@ require(ggplot2)
 set.seed(22136) # fixa o gerador de numeros aleatorio para que os resultados sejam iguais para todos
 
 df <- rbind(data.frame(group='A', tempo=rnorm(n=200, mean=10, sd=3), peso=rnorm(n=200, mean=100, sd=20)),
-            data.frame(group='B', tempo=rnorm(n=200, mean=10, sd=3), peso=rnorm(n=200, mean=105, sd=20))
+            data.frame(group='B', tempo=rnorm(n=200, mean=10, sd=3), peso=rnorm(n=200, mean=105, sd=20)))
 
 head(df) # exibe primeiras linhas do data frame
 
