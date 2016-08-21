@@ -2,12 +2,11 @@
 # Importando dados de planilhas eletrônicas de extensão .csv
 #
 # Gorgens, Eric Bastos
-# Department of Forest Sciences
-# University of Sao Paulo
-# Piracicaba, Brazil
-# gorgens (at) usp.br
+# Departamento de Engenharia Florestal
+# Universidade Federal dos Vales do Jequitinhonha e Mucuri - UFVJM
+# Diamantina, Brazil
+# eric.gorgens (at) ufvjm.edu.br
 #
-# Last revision: 2013-06-22
 #--------------------------------------------------------------------------------------------------
 
 
