@@ -2,11 +2,12 @@
 # Criando funções
 #
 # Gorgens, Eric Bastos
-# Department of Forest Sciences
-# University of Sao Paulo
-# Piracicaba, Brazil
-# gorgens (at) usp.br
-##--------------------------------------------------------------------------------------------------
+# Departamento de Engenharia Florestal
+# Universidade Federal dos Vales do Jequitinhonha e Mucuri - UFVJM
+# Diamantina, Brazil
+# eric.gorgens (at) ufvjm.edu.br
+#
+#--------------------------------------------------------------------------------------------------
 
 
 # A função permite criar uma sequencia de código que será ativada conforme demanda do programador, 
