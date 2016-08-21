@@ -2,10 +2,11 @@
 # Regressao linear
 #
 # Gorgens, Eric Bastos
-# Department of Forest Sciences
-# University of Sao Paulo
-# Piracicaba, Brazil
-# gorgens (at) usp.br
+# Departamento de Engenharia Florestal
+# Universidade Federal dos Vales do Jequitinhonha e Mucuri - UFVJM
+# Diamantina, Brazil
+# eric.gorgens (at) ufvjm.edu.br
+#
 #--------------------------------------------------------------------------------------------------
 
 # Neste arquivo temos o peso de serrapilheira e braquiaria (dividido em total e aéreo) e abertura de dossel.
