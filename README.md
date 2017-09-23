@@ -1,7 +1,9 @@
-udemy
+CompR - Computação em R - Introdução
 =====
 
-Para acompanhar as vídeo-aulas, acesse: https://www.udemy.com/computacao_r/
+Para acompanhar as vídeo-aulas, acesse:
+- https://www.youtube.com/playlist?list=PLLCIDTaS6A7C4Ig6gf4d66hvyvl5e3zyy
+- https://eliademy.com/catalog/programac-o-cientifica-no-r.html
 
 # Descrição
 
